@@ -1,4 +1,4 @@
-"ID","iso_code","country_code","country_ors_subregion","serotype","year","in_out_of_subregions","epi_week","total_cases","incidence_rate","laboratory_confirmed","perc_laboratory_confirmed","severe_dengue","SD_D_per_100","deaths","CFR","population_per_1000"
+"ID","iso_code","country_code","country_or_subregion","serotype","year","in_out_of_subregions","epi_week","total_cases","incidence_rate","laboratory_confirmed","perc_laboratory_confirmed","severe_dengue","SD_D_per_100","deaths","CFR","population_per_1000"
 1,"CAN",124,"Canada",NA,2014,"Out",1,0,NA,0,NA,0,NA,0,NA,0
 1,"USA",840,"United States of America",NA,2014,"Out",1,9,0,9,100,0,0,0,0,322583
 1,NA,NA,"North America",NA,2014,"In",NA,9,0,9,100,0,0,0,0,322583
