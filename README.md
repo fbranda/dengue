@@ -2,7 +2,7 @@
 Dengue is the arbovirus that causes the highest number of cases in the Region of the Americas, with epidemics occurring cyclically every 3 to 5 years. 
 
 # Detailed overview
-We provide a single point to download all data in open format
+In progress
 
 ## Americas and the Caribbean
 ### Filename
