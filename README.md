@@ -37,12 +37,12 @@ Data source: [Pan American Health Organization (PAHO)](https://www3.paho.org/dat
 | **total_cases**      | Numeric | Report of all dengue cases; suspected, probable, confirmed, non-severe and severe cases, and deaths. 	  |
 | **incidence_rate**      | Numeric | Incidence rate of all of dengue cases / 100,000 population.	  |
 | **laboratory_confirmed**      | Numeric | Laboratory confirmed case: a suspected or probable dengue case with a dengue test with positive result (PCR, NS1 antigen detection or viral isolation).	  |
-| **perc_laboratory_confirmed**      | YYYY-MM-DD| Date of notification.	  |
+| **perc_laboratory_confirmed**      | Numeric | laboratory_confirmed/total_cases x100	  |
 | **severe_dengue**      | Numeric | Includes severe dengue and hemorrhagic dengue fever.	  |
 | **SD_D_per_100**      | Numeric | Proportion of severe dengue cases within all dengue cases.	  |
-| **deaths**      | YYYY-MM-DD| Date of notification	  |
+| **deaths**      | Numeric| Number of all dengue-related deaths.	  |
 | **CFR**      | Numeric | Case Fatality Rate (CFR) for dengue: Proportion of dengue deaths within all dengue cases.	  |
-| **population_per_1000**      | YYYY-MM-DD| Date of notification	  |
+| **population_per_1000**      | Numeric | Population of a country x1000	  |
 
 
 
