@@ -1,4 +1,4 @@
-"year","iso_code","country_code","country","cases"
+"year","iso_code","country_code","country_or_subregion","total_cases"
 1980,"AIA",660,"Anguilla",0
 1980,"ATG",28,"Antigua and Barbuda",0
 1980,"ARG",32,"Argentina",0
