@@ -51,7 +51,7 @@ Data source: [Pan American Health Organization (PAHO)](https://www3.paho.org/dat
 ### Filename
 Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/arbovirosi/dashboard) <br>
 **Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-2023.csv <br>
+**Filename:** dengue-ita-yyyy.csv <br>
 
 
 | Field                 | Format                       |Description                      
@@ -69,7 +69,7 @@ Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/
 
 
 **Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-age-2023.csv <br>
+**Filename:** dengue-ita-age-yyyy.csv <br>
 
 | Field                 | Format                       |Description                      
 |-----------------------------|-----------------------------------|-------------------------------|
@@ -84,7 +84,7 @@ Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/
 
 
 **Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-location-exposure-2023.csv <br>
+**Filename:** dengue-ita-location-exposure-yyyy.csv <br>
 
 | Field                 | Format                       |Description                      
 |-----------------------------|-----------------------------------|-------------------------------|
@@ -94,7 +94,7 @@ Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/
 
 
 **Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-regions-2023.csv <br>
+**Filename:** dengue-ita-regions-yyyy.csv <br>
 | Field                 | Format                       |Description                      
 |-----------------------------|-----------------------------------|-------------------------------|
 | **data**      | String (YYYY-MM-DD) | 	Bulletin date  |
@@ -107,7 +107,7 @@ Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/
 
 
 **Directory:**  Data/Europe/Italy/<br>
-**Filename:** summary-cases.csv <br>
+**Filename:** dengue-ita-summary-cases.csv <br>
 | Field                 | Format                       |Description                      
 |-----------------------------|-----------------------------------|-------------------------------|
 | **year**      | String | 	Year of reported cases of dengue  |
