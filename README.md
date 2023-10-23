@@ -1,4 +1,4 @@
-![image](https://github.com/fbranda/dengue/assets/19703026/f9cd59f9-702d-4c9a-9779-6430b2eac253)![image](https://github.com/fbranda/dengue/assets/19703026/d1936597-6ab4-4463-b750-8ace3844130a)# Dengue worldwide overview
+# Dengue worldwide overview
 Dengue is the arbovirus that causes the highest number of cases in the Region of the Americas, with epidemics occurring cyclically every 3 to 5 years. 
 
 # Detailed overview
