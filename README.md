@@ -116,6 +116,17 @@ Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/
 | **autochthonous**      | Numeric |  Number of weekly dengue cases that are locally transmitted	  |
 | **imported**      | Numeric |  Number of weekly dengue cases that are imported (acquired from outside the local area)	  |
 
+**Directory:**  Data/Europe/Italy/<br>
+**Filename:** dengue-ita-summary-cases-regions.csv <br>
+| Field                 | Format                       |Description                      
+|-----------------------------|-----------------------------------|-------------------------------|
+| **year**      | String | 	Year of reported cases of dengue  |
+| **code_region**      | String  | 	Alphanumeric code to identify a specific geographic region where cases on dengue are reported  |
+| **name_region**      | String  | 	Name of the geographic region where cases on dengue are reported  |
+| **lat**      | String  | Latitude coordinate associated with the region where cases on dengue are reported	  |
+| **lon**      | String  | Longitude coordinate associated with the region where cases on dengue are reported	  |
+| **cases**      | Numeric | 	Total number of reported cases of dengue  |
+
 
 
 
