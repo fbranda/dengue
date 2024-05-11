@@ -23,12 +23,12 @@ dengue/
 │   ├── bulletins/
 │   │   ├── Dengue_*.pdf
 │   ├── surveillance/
-│   │   ├── 2023/
+│   │   ├── yyyy/
 │   │   │   ├── dengue-ita-*.csv
 │   │   │   ├── dengue-ita-age-*.csv
 │   │   │   ├── dengue-ita-location-exposure-*.csv
 │   │   │   ├── dengue-ita-regions-*.csv
-│   │   ├── 2024/
+│   │   ├── ...
 │   │   │   ├── ...
 │   ├── dengue-ita-summary-cases.csv
 │   ├── dengue-ita-summary-cases-regions.csv
