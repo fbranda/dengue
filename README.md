@@ -1,137 +1,58 @@
-# Dengue worldwide overview
-Dengue is the arbovirus that causes the highest number of cases in the Region of the Americas, with epidemics occurring cyclically every 3 to 5 years. 
+[Italiano](README.md) - [English](README_EN.md)<br><br>
 
-# Detailed overview
-In progress
+# Dati Dengue Italia
 
-## Americas and the Caribbean
-### Filename
-Data source: [Pan American Health Organization (PAHO)](https://www3.paho.org/data/index.php/en/mnu-topics/indicadores-dengue-en/dengue-nacional-en/252-dengue-pais-ano-en.html) <br>
-**Directory:**  Data/Americas/<br>
-**Filename:** annual-cases.csv <br>
+[![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://github.com/fbranda/dengue/blob/main/LICENSE.md)
 
+[Sito dell'Istituto Superiore di Sanità - Sistema nazionale di sorveglianza delle arbovirosi: i bollettini periodici](https://www.epicentro.iss.it/arbovirosi/bollettini)
 
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **year**      | Numeric| Monitoring reporting year. 	  |
-| **iso_code**      | Numeric | Three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries. 	  |
-| **country_code**      | Numeric | Three-digit country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries.	  |
-| **country_or_subregion**      | String | Name of a country.	  |
-| **total_cases**      | Numeric | Report of all dengue cases; suspected, probable, confirmed, non-severe and severe cases, and deaths. 	  |
+Le patologie arbovirali derivano da agenti virali veicolati da insetti artropodi, come ad esempio zanzare, zecche e flebotomi, mediante la loro puntura o morso. Attualmente, sono stati identificati oltre 100 virus associati agli arbovirus, capaci di causare disturbi nella salute umana. La maggioranza di questi virus appartiene a famiglie e gruppi quali i <i>Togaviridae</i> (Alphavirus), i <i>Flaviridae</i> (Flavivirus) e i <i>Bunyaviridae</i> (Bunyavirus e Phlebovirus). In Italia, le infezioni arbovirali possono derivare sia da casi importati sia da quelli autoctoni e possono presentarsi con sintomi clinici diversificati. Le attività di sorveglianza delle arbovirosi sono coordinate dall’Istituto Superiore di Sanità (ISS) e, nel caso delle sorveglianze dei virus West Nile e Usutu dall’Istituto Zooprofilattico dell’Abruzzo e del Molise (Izs-AM), in collaborazione con il ministero della Salute che, periodicamente, pubblica Piani di sorveglianza e risposta al fine di garantire un’individuazione precoce dei casi e ridurre il più possibile una eventuale diffusione. La sorveglianza epidemiologica è regolata dal "[Piano Nazionale di prevenzione, sorveglianza e risposta alle Arbovirosi (PNA) 2020-2025](https://www.salute.gov.it/imgs/C_17_pubblicazioni_2947_allegato.pdf#page=8.08). 
 
+Per informare i cittadini e mettere a disposizione i dati raccolti, utili ai soli fini comunicativi e di informazione, vengono rese disponibili, con licenza CC-BY-4.0, le seguenti informazioni:
 
+- Dati Andamento nazionale
+- Dati Andamento regionale
+- Bollettini riepilogativi
 
-**Directory:**  Data/Americas/<br>
-**Filename:** weekly-cases.csv <br>
+## Struttura del repository
+```
+dengue/
+│
+├── */
+│   ├── bollettini/
+│   │   ├── Dengue_*.pdf
+│   ├── sorveglianza/
+│   │   ├── 2023/
+│   │   │   ├── dengue-ita-*.csv
+│   │   │   ├── dengue-ita-age-*.csv
+│   │   │   ├── dengue-ita-location-exposure-*.csv
+│   │   │   ├── dengue-ita-regions-*.csv
+│   │   ├── 2024/
+│   │   │   ├── ...
+│   ├── dengue-ita-summary-cases.csv
+│   ├── dengue-ita-summary-cases-regions.csv
 
+```
 
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **ID**      | Numeric | Unique identification number of a country. 	  |
-| **iso_code**      | Numeric | Three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries. 	  |
-| **country_code**      | Numeric | Three-digit country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries.	  |
-| **country_or_subregion**      | String | Name of a country.	  |
-| **serotype**      | String| Name of the identified serotype.	  |
-| **year**      | Numeric| Monitoring reporting year 	  |
-| **epi_week**      | Numeric| Epidemiological Week for which information is available. Countries or territories that dengue epidemiological information is not available do not appear. 	  |
-| **total_cases**      | Numeric | Report of all dengue cases; suspected, probable, confirmed, non-severe and severe cases, and deaths. 	  |
-| **incidence_rate**      | Numeric | Incidence rate of all of dengue cases / 100,000 population.	  |
-| **laboratory_confirmed**      | Numeric | Laboratory confirmed case: a suspected or probable dengue case with a dengue test with positive result (PCR, NS1 antigen detection or viral isolation).	  |
-| **perc_laboratory_confirmed**      | Numeric | laboratory_confirmed/total_cases x100	  |
-| **severe_dengue**      | Numeric | Includes severe dengue and hemorrhagic dengue fever.	  |
-| **SD_D_per_100**      | Numeric | Proportion of severe dengue cases within all dengue cases.	  |
-| **deaths**      | Numeric| Number of all dengue-related deaths.	  |
-| **CFR**      | Numeric | Case Fatality Rate (CFR) for dengue: Proportion of dengue deaths within all dengue cases.	  |
-| **population_per_1000**      | Numeric | Population of a country x1000	  |
+## Formato dei dati
 
+- [Dati andamento Dengue Italia](dati-andamento-dengue-italia.md)<br>
 
+## Esempio d'uso dei dati
 
+**Download diretto (CSV)**: https://raw.githubusercontent.com/fbranda/dengue/main/surveillance/dengue-ita-2023.csv
 
-## Italy
-### Filename
-Data source: [Istituto Superiore di Sanità (ISS)](https://www.epicentro.iss.it/arbovirosi/dashboard) <br>
-**Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-yyyy.csv <br>
+**Python** (richiede `pandas`):
+```python
+import pandas as pd
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/dengue/main/surveillance/2023/dengue-ita-2023.csv")
+```
 
+**R**:
+```r
+df <- read.csv("https://raw.githubusercontent.com/fbranda/dengue/main/surveillance/2023/dengue-ita-2023.csv")
+```
+   
+## Licenza
 
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **data**      | String (YYYY-MM-DD) | 	Bulletin date  |
-| **new_cases**      | Numeric | Number of new weekly reported cases of dengue |
-| **total_cases**      | Numeric | Total number of reported cases of dengue	  |
-| **new_deaths**      | Numeric | 	Number of new weekly reported deaths of dengue  |
-| **total_deaths**      | Numeric |  Total number of reported cases of dengue	  |
-| **male**      | Numeric |  	Percentage of weekly dengue cases reported in males  |
-| **female**      | Numeric | Percentage of weekly dengue cases reported in females 	  |
-| **median_age**      | Numeric |  Median weekly age of people affected by dengue	  |
-| **autochthonous**      | Numeric |  Number of weekly dengue cases that are locally transmitted	  |
-| **imported**      | Numeric |  Number of weekly dengue cases that are imported (acquired from outside the local area)	  |
-
-
-**Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-age-yyyy.csv <br>
-
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **data**      | String (YYYY-MM-DD) | 	Bulletin date  |
-| **age**      | String | 	Age of individuals affected by dengue. Age groups: `0-9`, `10-19`, `20-29`, `30-39`, `40-49`, `50-59`, `60+`  |
-| **new_cases**      | Numeric | Number of new weekly reported cases of dengue |
-| **total_cases**      | Numeric | Total number of reported cases of dengue	  |
-| **male**      | Numeric |  	Percentage of weekly dengue cases reported in males  |
-| **female**      | Numeric | Percentage of weekly dengue cases reported in females 	  |
-| **incidence**      | Numeric |  Weekly incidence rate of dengue cases	  |
-
-
-
-**Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-location-exposure-yyyy.csv <br>
-
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **data**      | String (YYYY-MM-DD) | 	Bulletin date  |
-| **location**      | String |  Information on the geographic location or region associated with imported dengue cases	  |
-| **percent_cases**      | Numeric |  Weekly percentage of dengue cases in relation to the total number of cases per location |
-
-
-**Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-regions-yyyy.csv <br>
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **data**      | String (YYYY-MM-DD) | 	Bulletin date  |
-| **code_region**      | String  | 	Alphanumeric code to identify a specific geographic region where cases on dengue are reported  |
-| **name_region**      | String  | 	Name of the geographic region where cases on dengue are reported  |
-| **lat**      | String  | Latitude coordinate associated with the region where cases on dengue are reported	  |
-| **lon**      | String  | Longitude coordinate associated with the region where cases on dengue are reported	  |
-| **new_cases**      | Numeric | Number of new weekly reported cases of dengue |
-| **total_cases**      | Numeric | Total number of reported cases of dengue	  |
-
-
-**Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-summary-cases.csv <br>
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **year**      | String | 	Year of reported cases of dengue  |
-| **month**      | String | 	Month of reported cases of dengue  |
-| **cases**      | Numeric | 	Total number of reported cases of dengue  |
-| **autochthonous**      | Numeric |  Number of weekly dengue cases that are locally transmitted	  |
-| **imported**      | Numeric |  Number of weekly dengue cases that are imported (acquired from outside the local area)	  |
-
-**Directory:**  Data/Europe/Italy/<br>
-**Filename:** dengue-ita-summary-cases-regions.csv <br>
-| Field                 | Format                       |Description                      
-|-----------------------------|-----------------------------------|-------------------------------|
-| **year**      | String | 	Year of reported cases of dengue  |
-| **code_region**      | String  | 	Alphanumeric code to identify a specific geographic region where cases on dengue are reported  |
-| **name_region**      | String  | 	Name of the geographic region where cases on dengue are reported  |
-| **lat**      | String  | Latitude coordinate associated with the region where cases on dengue are reported	  |
-| **lon**      | String  | Longitude coordinate associated with the region where cases on dengue are reported	  |
-| **cases**      | Numeric | 	Total number of reported cases of dengue  |
-
-
-
-
-
-
-
-
-
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it) - [Visualizza licenza](https://github.com/fbranda/dengue/blob/main/LICENSE.md)
