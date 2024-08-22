@@ -42,8 +42,7 @@
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
 | **data**                    | Data di pubblicazione dei nuovi dati          | YYYY-MM-DD           | 2023-09-04			|                   
 | **luogo**  | Nome del luogo probabile di esposizione dei casi di Dengue importati | Testo      | Messico               |
-| **percent_casi**  | Percentuale di nuovi casi segnalati da uno specifico luogo di esposizione nella settimana del monitoraggio   | Numero                        | 12.0            |
-               |
+| **percent_casi**  | Percentuale di nuovi casi segnalati da uno specifico luogo di esposizione nella settimana del monitoraggio   | Numero                        | 12.0            |                                                                          |
 
 
 **Directory:**  sorveglianza<br>
